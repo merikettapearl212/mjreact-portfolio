@@ -5,6 +5,7 @@ import Jumbotron from "./components/Jumbotron";
 import Cards from "./components/Cards";
 import Skills from "./components/Skills";
 import About from "./components/About"
+import "../src/app.css";
 
 function App() {
   return (

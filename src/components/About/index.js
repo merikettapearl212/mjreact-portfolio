@@ -1,25 +1,27 @@
 import React from "react";
 import {  MDBRow, MDBCol, MDBContainer, MDBCardBody, MDBMask, MDBView, MDBBtn } from "mdbreact";
+import profilepic from "../../images/profilepic.png";
 
 const About = () => {
   return (
     <MDBContainer>
       <MDBCardBody>
-        <h2 className="h1-responsive font-weight-bold text-center mt-4">
+        <h2 className="section-title font-weight-bold text-center mt-4 pb-3">
+        <span className="span-h2-underline">
           About
+          </span>
         </h2>
-        <p className="text-center w-responsive mx-auto mb-5">
+        <p className="text-center mx-auto mb-5">
           Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-          cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum.
+          cillum dolore eu fugiat nulla pariatur.
         </p>
         <MDBRow>
-          <MDBCol lg="5">
-            <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+          <MDBCol lg="">
+            <MDBView className="mb-lg-0 mb-4 pl-3" hover waves>
               <img
                 className="img-fluid"
-                src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg"
+                src={profilepic}
+                style={{height: '300px'}}
                 alt=""
               />
               <a href="#!">

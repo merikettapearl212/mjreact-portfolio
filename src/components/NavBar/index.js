@@ -23,29 +23,29 @@ render() {
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
             <MDBNavItem>
-              <MDBNavLink to="#!">Home</MDBNavLink>
+              <MDBNavLink to="#!">About</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Features</MDBNavLink>
+              <MDBNavLink to="#!">Portfolio</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Pricing</MDBNavLink>
+              <MDBNavLink to="#!">Contact</MDBNavLink>
             </MDBNavItem>
             
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light" to="#!">
+              <MDBNavLink to="#!">
                 <MDBIcon fab icon="github" />
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light" to="#!">
+              <MDBNavLink to="#!">
                 <MDBIcon fab icon="instagram" />
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light" to="#!">
+              <MDBNavLink to="#!">
                 <MDBIcon fab icon="linkedin" />
               </MDBNavLink>
             </MDBNavItem>

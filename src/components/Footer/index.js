@@ -5,29 +5,29 @@ const Footer = () => {
   return (
     <MDBFooter className="font-small pt-4 black-text mt-5">
       <MDBContainer>
-      <h2 className="h1-responsive font-weight-bold text-center my-2">
+      <h2 className="section-title font-weight-bold text-center my-2 mb-5">
         Contact
       </h2>
-      <p className="text-center w-responsive mx-auto pb-2">
+      {/* <p className="text-center mx-auto pb-2">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
         error amet numquam iure provident voluptate esse quasi, veritatis
         totam voluptas nostrum quisquam eum porro a pariatur veniam.
-      </p>
+      </p> */}
       <MDBRow>
       <MDBCol md="3" className="text-center">
         
           <ul className="list-unstyled mb-0">
             <li>
               <MDBIcon icon="map-marker-alt" size="2x" className="teal-text" />
-              <p>San Francisco, CA 94126, USA</p>
+              <p>Seattle, WA 98122, USA</p>
             </li>
             <li>
               <MDBIcon icon="phone" size="2x" className="teal-text mt-4" />
-              <p>+ 01 234 567 89</p>
+              <p>+1 555 555 555</p>
             </li>
             <li>
               <MDBIcon icon="envelope" size="2x" className="teal-text mt-4" />
-              <p>contact@example.com</p>
+              <p>meagan.james231@gmail.com</p>
             </li>
           </ul>
         </MDBCol>
@@ -77,7 +77,7 @@ const Footer = () => {
     </MDBContainer>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> MDBootstrap.com </a>
+          &copy; 2021 Copyright: <a href="https://www.linkedin.com/in/meagan-james-502b78191/"> Meagan James</a>
         </MDBContainer>
       </div>
     </MDBFooter>
