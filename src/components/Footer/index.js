@@ -6,7 +6,9 @@ const Footer = () => {
     <MDBFooter className="font-small pt-4 black-text mt-5">
       <MDBContainer>
       <h2 className="section-title font-weight-bold text-center my-2 mb-5">
+      <span className="span-h2-underline">
         Contact
+        </span>
       </h2>
       {/* <p className="text-center mx-auto pb-2">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
