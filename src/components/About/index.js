@@ -11,10 +11,10 @@ const About = () => {
           About
           </span>
         </h2>
-        <p className="text-center mx-auto mb-5">
+        <div className="text-center mx-auto mb-3">
           Duis aute irure dolor in reprehenderit in voluptate velit esse
           cillum dolore eu fugiat nulla pariatur.
-        </p>
+        </div>
         <MDBRow>
           <MDBCol lg="">
             <MDBView className="mb-lg-0 mb-4 pl-3" hover waves>
@@ -29,17 +29,35 @@ const About = () => {
               </a>
             </MDBView>
           </MDBCol>
-          <MDBCol lg="7">
-            <h3 className="font-weight-bold mb-3 p-0">
-              <strong>Web Developer & UX/UI Designer</strong>
+          <MDBCol lg="8">
+            <h3 className="font-weight-bold mb-1 p-0">
+              Web Developer & UX/UI Designer
             </h3>
-            <p>
+            <div className="mb-2" style={{ fontSize: "14px" }}>
               Nam libero tempore, cum soluta nobis est eligendi optio cumque
-              nihil impedit quo minus id quod maxime placeat facere possimus,
-              omnis voluptas assumenda est, omnis dolor repellendus et aut
-              officiis debitis.
-            </p>
-            <MDBBtn size="md">
+              nihil impedit.
+            </div>
+            <MDBRow>
+              <MDBCol>
+                  <ul>
+                    <li><strong>Birthday:</strong> 30 September 1991</li>
+                    <li><strong>Phone:</strong> +123 456 7890</li>
+                    <li><strong>City:</strong> Seattle, USA</li>
+                  </ul>
+              </MDBCol>
+              <MDBCol >
+                  <ul>
+                    <li><strong>Age:</strong> 30</li>
+                    <li><strong>Email:</strong> meagan.james231@gmail.com</li>
+                    <li><strong>Freelance:</strong> Available</li>
+                  </ul>
+              </MDBCol>
+            </MDBRow>
+            <div className="mb-2">
+                Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+                Cupiditate ut dicta maxime officiis quidem quia.
+              </div>
+            <MDBBtn size="md" style={{ borderRadius: "2rem" }}>
               Download Resume
             </MDBBtn>
           </MDBCol>
