@@ -1,4 +1,6 @@
-<h1 align="center"> #[Meagan James Dev Profile](https://github.com/merikettapearl212/mjreact-portfolio)</h1>
+<h1 align="center"> 
+[Meagan James Dev Profile](https://github.com/merikettapearl212/mjreact-portfolio)
+</h1>
 <p align="center">
 <img src="https://img.shields.io/github/repo-size/merikettapearl212/mjreact-portfolio?style=for-the-badge" />
     <a href="https://www.linkedin.com/in/meagan-james-502b78191/">
