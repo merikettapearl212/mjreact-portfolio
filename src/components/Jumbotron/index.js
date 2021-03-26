@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBContainer, MDBBtn, MDBRow, MDBCol, MDBView} from "mdbreact";
+import { MDBContainer, MDBBtn, MDBRow, MDBCol, MDBView, MDBAnimation} from "mdbreact";
 import jumboimg from "../../images/jumboimg.jpg";
 
 
@@ -13,6 +13,7 @@ const Jumbotron = () => {
           >
             <MDBRow>
               <MDBCol md='12' className='mb-5 pt-5 text-center'>
+              <MDBAnimation reveal type="zoomIn">
                 <h1 className='main-name mb-1 pt-1'>
                 Meagan<span className="slash">/</span>James</h1>
                 <h5 className='mb-4 '>
@@ -24,6 +25,7 @@ const Jumbotron = () => {
                 <MDBBtn size="md" outline color='default' style={{ borderRadius: "2rem" }}>
                   About me
                 </MDBBtn>
+                </MDBAnimation>
               </MDBCol>
             </MDBRow>
           </MDBContainer>

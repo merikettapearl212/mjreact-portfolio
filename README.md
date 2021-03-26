@@ -21,7 +21,7 @@ An updated portfolio using react, containing most recent works, resume and links
 
 
 #### Screenshot of example:
-<!-- <img src="portfolio2-Dev-Mjames/Assets/images/Screen-shotportfolio.png" width="400" height="250"> -->
+<img src="src/images/screencapture-localhost-3000-portfolio-2021-03-25-17_46_51.png" width="400" height="1000">
 
 ## License
 <img src="https://img.shields.io/github/license/merikettapearl212/mjreact-portfolio?style=for-the-badge" />

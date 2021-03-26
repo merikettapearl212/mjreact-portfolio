@@ -1,11 +1,12 @@
 import React from "react";
-import {  MDBRow, MDBCol, MDBContainer, MDBCardBody, MDBMask, MDBView, MDBBtn } from "mdbreact";
+import {  MDBRow, MDBCol, MDBContainer, MDBCardBody, MDBMask, MDBView, MDBBtn, MDBAnimation } from "mdbreact";
 import profilepic from "../../images/profilepic.png";
 
 const About = () => {
   return (
     <MDBContainer>
       <MDBCardBody>
+      <MDBAnimation reveal type="fadeInRight">
         <h2 className="section-title font-weight-bold text-center mt-4 pb-3">
         <span className="span-h2-underline">
           About
@@ -15,6 +16,8 @@ const About = () => {
           Duis aute irure dolor in reprehenderit in voluptate velit esse
           cillum dolore eu fugiat nulla pariatur.
         </div>
+        </MDBAnimation>
+        <MDBAnimation reveal type="fadeInLeft">
         <MDBRow>
           <MDBCol lg="">
             <MDBView className="mb-lg-0 mb-4 pl-3" hover waves>
@@ -57,11 +60,13 @@ const About = () => {
                 Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
                 Cupiditate ut dicta maxime officiis quidem quia.
               </div>
-            <MDBBtn size="md" style={{ borderRadius: "2rem" }}>
-              Download Resume
-            </MDBBtn>
+            
+            <a href="https://docs.google.com/document/d/1Pj3JYHE2Qp51QFWAfSQ6foGu6fuXGYY6nWCWLS8aBr8/edit?usp=sharing">
+                <MDBBtn size="md" style={{ borderRadius: "2rem" }}>Download resume</MDBBtn>
+            </a>
           </MDBCol>
         </MDBRow>
+        </MDBAnimation>
       </MDBCardBody>
       </MDBContainer>
   );
