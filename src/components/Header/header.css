@@ -1,0 +1,28 @@
+.header-image {
+    background-image: url("../../images/headerimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.slash {
+    color:#FF6363;
+  }
+  
+  .main-name {
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 48px; */
+    font-weight: 700;
+    color: #555555;
+  }
+
+  .navbar {
+    background-color: #d7cbcb ;
+    
+    
+}
+
+/* nav {
+  box-shadow: none;
+} */

@@ -1,5 +1,4 @@
-
-  .span-h2-underline {
+.span-h2-underline {
     padding-bottom: 8px;
     border-bottom: 2px solid #34b7a7;
     color: #555555;
@@ -13,27 +12,19 @@
   h5, h3 {
     color: #555555;
   }
-
-  .slash {
-    color:#FF6363;
-  }
-  
-  .main-name {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-  }
-
-  .MDBBtn {
-    border-radius: 50px;
-  }
-
-  ul {
-    list-style: none;
-    padding: 0;
+/* 
+  .btn {
+    background-color: #34b7a7;
+    color: white;
     
+    
+
+  } */
+
+  .footer-copyright {
+    background-color: rgba(0,0,0,0.2);
   }
 
-  ul li {
-    padding-bottom: 6px;
+  .jumbotron {
+    box-shadow: none;
   }

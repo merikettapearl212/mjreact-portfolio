@@ -1,20 +1,24 @@
 import React from "react";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-import Jumbotron from "./components/Jumbotron";
-import Cards from "./components/Cards";
-import Skills from "./components/Skills";
-import About from "./components/About"
+// import NavBar from "./components/NavBar";
+import Footer from "./Components/Footer/index";
+import Header from "./Components/Header/index";
+
+import Contact from "./Components/Contact/index";
+import Portfolio from "./Components/Portfolio/index";
+import About from "./Components/About/index";
+import TechUsed from "./Components/TechUsed/index"
 import "../src/app.css";
+
 
 function App() {
   return (
    <div>
-     <NavBar />
-     <Jumbotron />
+     {/* <NavBar /> */}
+     <Header />
      <About />
-     <Skills />
-     <Cards />
+     <TechUsed />
+     <Portfolio />
+     <Contact />
      <Footer />
      </div>
   );
