@@ -1,13 +1,13 @@
-import {  Container, Row } from "mdbreact";
+import {  MDBContainer, MDBIcon, MDBRow, MDBAnimation} from "mdbreact";
 import adobeicon from "../../images/adobeicon.png";
-import "../TechUsed/techused.css";
+import "./Skills.css";
 
 
 function Skills() {
     return (
         <div className="skills pb-3">
-        <Container className="mt-5 pb-2">
-        <h2 className="section-title font-weight-bold text-center mt-3 pt-4 pb-1">
+        <MDBContainer className="mt-5 pb-2">
+        <h2 className="section-title font-weight-bold text-center mt-3 pt-4 pb-1 mb-4">
         <span className="span-h2-underline">
          Skills
          </span>
@@ -17,38 +17,38 @@ function Skills() {
           error amet numquam iure provident voluptate.
         </p>
         
-       
+        <MDBAnimation reveal type="zoomIn">
  
-       <Row className="d-flex justify-content-center p-2">
+       <MDBRow className="d-flex justify-content-center p-2">
           <div className="skillicons">
-                <i className="fab fa-css3-alt skillicons" style={{ fontSize: "50px" }} ></i>
+            <MDBIcon fab icon="css3-alt" style={{ fontSize: "50px" }} />
             </div>
             <div className="skillicons">
-                <i class="fab fa-html5" style={{ fontSize: "50px" }} ></i>
-            </div>
+              <MDBIcon fab icon="bootstrap" style={{ fontSize: "50px" }} />
+              </div>
               <div className="skillicons">
-              <i class="fab fa-bootstrap" style={{ fontSize: "50px" }} ></i>
+              <MDBIcon fab icon="html5" style={{ fontSize: "50px" }} />
               </div>
             <div className="skillicons">
-              <i class="fab fa-js-square" style={{ fontSize: "50px" }} ></i>
+              <MDBIcon fab icon="js-square" style={{ fontSize: "50px" }} />
               </div>   
-          </Row>
+          </MDBRow>
           
           
           
-        <Row className="d-flex justify-content-center p-3"> 
+        <MDBRow className="d-flex justify-content-center p-3"> 
           <div className="skillicons">
-              <i class="fab fa-react" style={{ fontSize: "50px" }} ></i>
+              <MDBIcon fab icon="react" style={{ fontSize: "50px" }} />
             </div>
             <div className="skillicons">
-              <i class="fab fa-node" style={{ fontSize: "50px" }} ></i>
+              <MDBIcon fab icon="node" style={{ fontSize: "50px" }} />
               </div>
               <div className="skillicons">
-              <i class="fab fa-mdb" style={{ fontSize: "50px" }} ></i>
+              <MDBIcon fab icon="mdb" style={{ fontSize: "50px" }} />
               </div>
 
               <div className="skillicons">
-              <i class="fab fa-git-alt" style={{ fontSize: "50px" }} ></i>
+              <MDBIcon fab icon="git-alt" style={{ fontSize: "50px" }} />
               </div>
 
               <div className="skillicons">
@@ -59,10 +59,10 @@ function Skills() {
               <MDBIcon fab icon="sass" style={{ fontSize: "50px" }} />
             </MDBCol> */}
        
-          </Row> 
-      
+          </MDBRow> 
+          </MDBAnimation>
 
-      </Container>
+      </MDBContainer>
       </div>
     );
 }

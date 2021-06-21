@@ -1,24 +1,21 @@
 import React from "react";
-// import NavBar from "./components/NavBar";
-import Footer from "./Components/Footer/index";
-import Header from "./Components/Header/index";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
-import Contact from "./Components/Contact/index";
-import Portfolio from "./Components/Portfolio/index";
-import About from "./Components/About/index";
-import TechUsed from "./Components/TechUsed/index"
-import "../src/app.css";
-
+import Cards from "./components/Cards";
+import Skills from "./components/Skills";
+import About from "./components/About"
+import "./app.css";
 
 function App() {
   return (
    <div>
-     {/* <NavBar /> */}
+     <NavBar />
      <Header />
      <About />
-     <TechUsed />
-     <Portfolio />
-     <Contact />
+     <Skills />
+     <Cards />
      <Footer />
      </div>
   );
