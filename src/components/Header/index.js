@@ -19,10 +19,10 @@ const Header = () => {
                 <h5 className='mb-4 '>
                   <strong>I'm a Full-Stack Web Developer</strong>
                 </h5>
-                <MDBBtn size="md" style={{ borderRadius: "2rem" }}>
+                <MDBBtn size="md">
                   portfolio
                 </MDBBtn>
-                <MDBBtn size="md" outline color='default' style={{ borderRadius: "2rem" }}>
+                <MDBBtn size="md" outline color='default'>
                   About me
                 </MDBBtn>
                 </MDBAnimation>

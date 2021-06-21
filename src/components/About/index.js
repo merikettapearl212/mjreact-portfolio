@@ -62,7 +62,7 @@ const About = () => {
               </div>
             
             <a href="https://docs.google.com/document/d/1Pj3JYHE2Qp51QFWAfSQ6foGu6fuXGYY6nWCWLS8aBr8/edit?usp=sharing">
-                <MDBBtn size="md" style={{ borderRadius: "2rem" }}>Download resume</MDBBtn>
+                <MDBBtn size="md">Download resume</MDBBtn>
             </a>
           </MDBCol>
         </MDBRow>
