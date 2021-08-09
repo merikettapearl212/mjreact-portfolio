@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "./components/NavBar";
+// import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
@@ -11,7 +11,7 @@ import "./app.css";
 function App() {
   return (
    <div>
-     <NavBar />
+     {/* <NavBar /> */}
      <Header />
      <About />
      <Skills />
