@@ -1,5 +1,6 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBBtn, MDBIcon} from "mdbreact";
+import { MDBContainer, MDBFooter } from "mdbreact";
+// MDBIcon, MDBCol,MDBRow, MDBBtn,
 
 const Footer = () => {
   return (
