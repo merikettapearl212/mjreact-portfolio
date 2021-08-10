@@ -59,7 +59,7 @@ const About = () => {
             Full Stack Web Developer that strives for continuous improvement with an extensive background in customer service. Passionate about bringing ideas to life and building efficient strong applications suited to user needs. Collaborative team-player comfortable with high-stress environments while executing best practices. Communicate clearly and empathetically. Experience with and committed to working in diverse and inclusive workspaces.
               </div>
             
-            <a href="https://docs.google.com/document/d/1Pj3JYHE2Qp51QFWAfSQ6foGu6fuXGYY6nWCWLS8aBr8/edit?usp=sharing">
+            <a href="https://docs.google.com/document/d/1pm8SwZ-0khfBmi8TOHGRCxdM0S9MrUUFMF3Xi7FXnZ4/edit?usp=sharing">
                 <MDBBtn size="md">Download resume</MDBBtn>
             </a>
           </MDBCol>
