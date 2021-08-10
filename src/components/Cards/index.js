@@ -13,7 +13,7 @@ class HoverPage extends React.Component {
     return (
       <div>
         <MDBAnimation reveal type="fadeInLeft">
-      <h2 className="section-title font-weight-bold text-center mt-5 pt-5 pb-3">
+      <h2 id='portfolio'className="section-title font-weight-bold text-center mt-5 pt-5 pb-3">
         <span className="span-h2-underline">
       Portfolio
       </span>

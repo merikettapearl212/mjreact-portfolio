@@ -7,20 +7,19 @@ const About = () => {
     <MDBContainer>
       <MDBCardBody>
       <MDBAnimation reveal type="fadeInRight">
-        <h2 className="section-title font-weight-bold text-center mt-4 pb-3">
+        <h2 id='about' className="section-title font-weight-bold text-center mt-4 pb-3">
         <span className="span-h2-underline">
           About
           </span>
         </h2>
         <div className="text-center mx-auto mb-3">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur.
+        {/* Full-Stack Web Developer | Javascript, React, HTML, CSS, Node.js */}
         </div>
         </MDBAnimation>
         <MDBAnimation reveal type="fadeInLeft">
         <MDBRow>
           <MDBCol lg="">
-            <MDBView className="mb-lg-0 mb-4 pl-3" hover waves>
+            <MDBView className="mb-lg-0 mb-4 pl-5" hover waves>
               <img
                 className="img-fluid"
                 src={profilepic}
@@ -36,15 +35,15 @@ const About = () => {
             <h3 className="font-weight-bold mb-1 p-0">
               Web Developer & UX/UI Designer
             </h3>
-            <div className="mb-2" style={{ fontSize: "14px" }}>
-              Nam libero tempore, cum soluta nobis est eligendi optio cumque
-              nihil impedit.
+            <div className="mb-3" style={{ fontSize: "14px" }}>
+              {/* Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              nihil impedit. */}
             </div>
             <MDBRow>
               <MDBCol>
                   <ul>
                     <li><strong>Birthday:</strong> 30 September 1991</li>
-                    <li><strong>Phone:</strong> +123 456 7890</li>
+                    <li><strong>Phone:</strong> +360 286 3610</li>
                     <li><strong>City:</strong> Seattle, USA</li>
                   </ul>
               </MDBCol>
@@ -57,8 +56,7 @@ const About = () => {
               </MDBCol>
             </MDBRow>
             <div className="mb-2">
-                Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                Cupiditate ut dicta maxime officiis quidem quia.
+            Full Stack Web Developer that strives for continuous improvement with an extensive background in customer service. Passionate about bringing ideas to life and building efficient strong applications suited to user needs. Collaborative team-player comfortable with high-stress environments while executing best practices. Communicate clearly and empathetically. Experience with and committed to working in diverse and inclusive workspaces.
               </div>
             
             <a href="https://docs.google.com/document/d/1Pj3JYHE2Qp51QFWAfSQ6foGu6fuXGYY6nWCWLS8aBr8/edit?usp=sharing">

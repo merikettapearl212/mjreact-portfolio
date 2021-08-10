@@ -13,8 +13,7 @@ function Skills() {
          </span>
         </h2>
         <p className="text-center w-responsive mx-auto pb-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-          error amet numquam iure provident voluptate.
+        HTML5, CSS3, JavaScript, Bootstrap, Node, MySQL, MDB, ReactJS, Adobe
         </p>
         
         <MDBAnimation reveal type="zoomIn">

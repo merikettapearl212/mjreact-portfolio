@@ -19,10 +19,10 @@ const Header = () => {
                 <h4 className='mb-4 '>
                   <strong>I'm a Full-Stack Web Developer</strong>
                 </h4>
-                <MDBBtn size="md">
+                <MDBBtn size="md" onClick={() => window.location.replace("/#portfolio")}>
                   portfolio
                 </MDBBtn>
-                <MDBBtn size="md" outline color='default'>
+                <MDBBtn size="md" outline color='default' onClick={() => window.location.replace("/#about")}>
                   About me
                 </MDBBtn>
                 </MDBAnimation>

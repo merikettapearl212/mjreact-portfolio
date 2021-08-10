@@ -4,17 +4,13 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBBtn, MDBIcon} from "mdbreac
 const Footer = () => {
   return (
     <MDBFooter className="font-small pt-4 black-text mt-5">
-      <MDBContainer>
+      {/* <MDBContainer>
       <h2 className="section-title font-weight-bold text-center my-2 mb-5">
       <span className="span-h2-underline">
         Contact
         </span>
       </h2>
-      {/* <p className="text-center mx-auto pb-2">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-        error amet numquam iure provident voluptate esse quasi, veritatis
-        totam voluptas nostrum quisquam eum porro a pariatur veniam.
-      </p> */}
+      
       <MDBRow>
       <MDBCol md="3" className="text-center">
         
@@ -76,7 +72,7 @@ const Footer = () => {
         </MDBCol>
         
       </MDBRow>
-    </MDBContainer>
+    </MDBContainer> */}
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
           &copy; 2021 Copyright: <a href="https://www.linkedin.com/in/meagan-james-502b78191/"> Meagan James</a>
