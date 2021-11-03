@@ -42,14 +42,16 @@ const About = () => {
             <MDBRow>
               <MDBCol>
                   <ul>
-                    <li><strong>Birthday:</strong> 30 September 1991</li>
-                    <li><strong>Phone:</strong> +360 286 3610</li>
+                    {/* <li><strong>Birthday:</strong> 30 September 1991</li> */}
+                    {/* <li><strong>Phone:</strong> +360 286 3610</li> */}
                     <li><strong>City:</strong> Seattle, USA</li>
+                    <li><strong>Linkedin:</strong> <a style={{ color: "#34b7a7" }}href="https://www.linkedin.com/in/meagan-james-502b78191/"> Meagan James</a> </li>
+                    
                   </ul>
               </MDBCol>
               <MDBCol >
                   <ul>
-                    <li><strong>Age:</strong> 30</li>
+                    {/* <li><strong>Linkedin:</strong></li> */}
                     <li><strong>Email:</strong> meagan.james231@gmail.com</li>
                     <li><strong>Freelance:</strong> Available</li>
                   </ul>
